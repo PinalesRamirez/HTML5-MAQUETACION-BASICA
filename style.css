@@ -1,0 +1,316 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    box-sizing: border-box;
+    line-height: 20px;
+    
+}
+body{
+    background-color: #3E065F;
+}
+h2 {
+    color: red;
+}
+.head{
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.Flexible {
+    display: flex;
+    background-color: #191919;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    
+}
+
+.Logo{
+    width: 75px;
+    height: 75px;
+    
+}
+.Logo img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.navegacion .lista{
+    list-style: none;
+    margin: 10px;
+}
+
+.navegacion .lista li{
+    display: inline-block;
+    background-color: gray;
+    padding: 8px;
+    border-radius: 20px;
+    transition: all 1s;
+    font-size: 30px;
+    text-align: center;
+}
+
+.navegacion .lista a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    transition: all 1s;
+}
+
+.btn {
+    padding: 15px;
+    border-radius: 25px;
+    transition: all 1s;
+}
+
+.Logo img:hover {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 1s;
+    transform: scale(1.2);
+    box-shadow: inset 0 0 5px red , 0 0 10px red;
+}
+.navegacion .lista a:hover {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    transform: scale(1.1);
+    text-shadow: 0 0 5px yellow , 0 0 15px yellow, 0 0 30px yellow;
+    
+}
+.navegacion .lista li:hover{
+    display: inline-block;
+    background-color: white;
+    padding: 8px;
+    border-radius: 20px;
+    transition: all 1s;
+    font-size: 30px;
+    text-align: center;
+}
+
+.btn:hover {
+    padding: 15px;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    text-shadow: 0 0 5px purple, 0 0 15px purple, 0 0 30px purple;
+    box-shadow: inset 0 0 5px pink, 0 0 10px pink;
+}
+
+/* Section y el aside */
+
+.Flexible-2{
+    background-color: #191919;
+    height: 100vh;
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+}
+
+.Contenido {
+    width: 70%;
+    border: 2px solid #420516; 
+    padding: 4px;
+    display: flex;
+    margin: 5px;
+    background-color: #c9b977;
+}
+
+figure{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    
+}
+figure .deku{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+figure .theboss{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+figure .Hyouka{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.tarjeta1 {
+    width: 250px;
+    margin: 20px;
+    height: 95%;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 1px 10px blue;
+    text-align: center;
+    transition: 1s ease;
+    
+}
+.tarjeta1:hover {
+    width: 250px;
+    margin: 20px;
+    height: 95%;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 0 5px yellow , 0 0 15px yellow, 0 0 30px yellow;;
+    text-align: center;
+    transform: scale(1.1);
+    transition: 1s ease;
+    
+}
+
+.tarjeta2 {
+    width: 250px;
+    margin: 20px;
+    height: 95%;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 1px 10px blue;
+    text-align: center;
+    transition: 1s ease;
+}
+.tarjeta2:hover {
+    width: 250px;
+    margin: 20px;
+    height: 95%;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 0 5px red , 0 0 15px red, 0 0 30px red;;
+    text-align: center;
+    transform: scale(1.1);
+    transition: 1s ease;
+    
+}
+
+.tarjeta3 {
+    width: 250px;
+    margin: 20px;
+    height: 95%;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 1px 10px blue;
+    text-align: center;
+    
+}
+.tarjeta3:hover {
+    width: 250px;
+    margin: 20px;
+    height: 95%;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 0 5px green , 0 0 15px green, 0 0 30px green;;
+    text-align: center;
+    transform: scale(1.1);
+    transition: 1s ease;
+    
+}
+
+.publicidad{
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #04293A;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.viego{
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+h3 {
+    bottom: 10px;
+    margin: 10px;
+}
+
+p {
+    padding: 3px;
+    border-radius: 10px;
+    
+    
+}
+
+
+.anuncios{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+.titulo {
+    padding: 5px;
+    background: black;
+    color: white;
+    border-radius: 25px;
+}
+
+.titulo_viego {
+    align-items: center;
+    line-height: 27px;
+    
+}
+
+.link2{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 20px;
+    color: green;
+}
+
+.link1{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #1a1a40;
+    border-radius: 20px;
+    color: white;
+}
